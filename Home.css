@@ -1,0 +1,187 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow: hidden;
+}
+header
+{
+    position: fixed;
+    z-index: 1;
+} 
+.logorow
+{
+    width: 100%;
+    margin-right: 60px;
+    margin-left: 2px;
+}
+.kulogo
+{
+    height: 150px;
+    border-radius: 50% 50% 10px 10px;
+}
+.kuname
+{
+    background-color: azure;
+    height: 120px;
+    font: Bangers;
+    font-family: 'Trade Winds' ;
+
+    font-weight: bold;
+    border-radius: 0 0 10px 10px;
+}
+/*****************Header**********************/
+.menu
+{
+    margin-top: 200px;
+    height: 335px;
+    background-color: white;
+    position: fixed;
+    width: 150px;
+    text-decoration: none;
+}
+nav
+.menu li{
+    list-style-type: none;
+    float: left;
+}
+/********************sections**********************/
+
+section
+{
+    padding-top: 120px;
+    height: 625px;
+    border-radius: 20px;
+}
+/********************section1**********************/
+
+#sec1
+{
+    background-color: rgb(24, 26, 51); /*Home*/
+}
+.wlcm
+{
+    background-color: green;
+    padding:10px;
+}
+/********************section1**********************/
+/********************section2**********************/
+
+#sec2
+{
+    background-color: cadetblue; /*Administration*/
+}
+/********************section2**********************/
+
+/********************section3**********************/
+
+#sec3
+{
+    background-color: darkcyan ; 
+}
+/********************section3**********************/
+
+/********************section4**********************/
+
+#sec4
+{
+    background-color: darkseagreen;
+}
+/********************section4**********************/
+
+/********************section5**********************/
+
+#sec5
+{
+    background-color: tomato;
+}
+/********************section5**********************/
+
+/********************section6**********************/
+
+#sec6
+{
+    background-color: violet;
+}
+/********************section6**********************/
+
+/********************section7**********************/
+
+#sec7
+{
+    background-color: yellowgreen;
+}
+/********************section7**********************/
+
+/********************section8**********************/
+
+#sec8
+{
+    background-color: chocolate;
+}
+/********************section8**********************/
+
+/********************section9**********************/
+#sec9
+{
+    background-color: darkolivegreen;
+    color: darkorange;
+}
+#sec9 form
+{
+    width: 100%;
+    position: relative;
+    left: auto;
+}
+#sec9 > .container-fluid
+{
+    display: flex;
+}
+.contactus
+{
+    flex: 1;
+    padding: 10px;
+    display: flex;
+}
+.contactusdivider
+{
+    width: 2px;
+    height: 550px;
+    background-color: whitesmoke;
+}
+.contactusdivider > span
+{
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: white;
+    padding: 5px;
+}
+.address
+{
+    flex: 1;
+    padding: 15px;
+}
+.typicaladdress
+{
+    padding-left: 100px;
+}
+.gmap
+{
+    text-align: center;
+}
+/********************section9**********************/
+/********************sections**********************/
+
+/*********************Footer**********************/
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+/*********************Footer**********************/

@@ -1,0 +1,69 @@
+*
+{
+    box-sizing: border-box;
+}
+.dept_header
+{
+    background-color:#1a4380;
+    color: white;
+    padding: 10px;
+}
+.dept_about
+{
+    padding: 0px 20px;
+}
+.dept_about h2, .dept_toppers h2, .dept_faculty h2
+{
+    padding: 10px;
+    background-color: #1a4380;
+    color: white;
+    text-align: center;
+}
+.dept_toppers
+{
+    
+}
+.dept_faculty
+{
+    clear: both;
+}
+.hod img{
+    height: 200px;
+    width: 200px;
+}
+.thumbnail
+{
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+}
+#links
+{
+    clear: both;
+}
+#links h2
+{
+    color: red;
+}
+#links hr{
+    border:1px solid black;
+}
+.notice_board
+{
+    padding: 15px;
+}
+.quick_links
+{
+    padding: 15px;
+}
+.contact_us
+{
+    padding: 15px;
+}
+.dept_footer
+{
+    clear: both;
+    background-color:#1a4380;
+    color: white;
+    padding: 10px;
+}
